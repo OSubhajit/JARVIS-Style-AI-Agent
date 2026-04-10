@@ -1,0 +1,576 @@
+2026-04-09 14:12:59,636 [[92mINFO[0m] Monitor started.
+2026-04-09 14:12:59,636 [[92mINFO[0m] Wake word 'jarvis' active.
+2026-04-09 14:12:59,788 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 14:12:59,906 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 14:12:59,907 [[92mINFO[0m] Job scheduler started.
+2026-04-09 14:12:59,907 [[92mINFO[0m] Speech: Good afternoon. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 14:13:50,600 [[92mINFO[0m] API: hi
+2026-04-09 14:14:03,670 [[92mINFO[0m] API: hi
+2026-04-09 14:14:09,458 [[92mINFO[0m] API: hi
+2026-04-09 14:14:26,588 [[92mINFO[0m] API: what are you ability
+2026-04-09 14:14:38,678 [[92mINFO[0m] API: open utube
+2026-04-09 14:14:47,778 [DEBUG] Intent: {'action': 'search_google', 'params': {'query': 'hi'}}
+2026-04-09 14:14:47,831 [[92mINFO[0m] [search_google] → Google: hi
+2026-04-09 14:14:48,403 [DEBUG] Intent: {'action': 'search_google', 'params': {'query': 'hi'}}
+2026-04-09 14:14:48,413 [[92mINFO[0m] [search_google] → Google: hi
+2026-04-09 14:14:48,933 [DEBUG] Intent: {'action': 'open_youtube'}
+2026-04-09 14:14:48,960 [[92mINFO[0m] [open_youtube] → No handler: open_youtube
+2026-04-09 14:14:49,538 [DEBUG] Intent: {'action': 'search_google', 'params': {'query': 'hi'}}
+2026-04-09 14:14:49,548 [[92mINFO[0m] [search_google] → Google: hi
+2026-04-09 14:14:50,192 [DEBUG] Intent: {'action': 'search_google', 'params': {'query': 'what are my abilities'}}
+2026-04-09 14:14:50,203 [[92mINFO[0m] [search_google] → Google: what are my abilities
+2026-04-09 14:15:06,375 [[92mINFO[0m] API: show habits
+2026-04-09 14:15:09,726 [DEBUG] Intent: {'action': 'list_files', 'params': {'path': './habits'}}
+2026-04-09 14:15:09,727 [[92mINFO[0m] [list_files] → Error: [WinError 3] The system cannot find the path specified: './habits'
+2026-04-09 14:17:19,282 [[92mINFO[0m] API: show expenses
+2026-04-09 14:17:22,695 [DEBUG] Intent: {'action': 'log_expense', 'params': {'amount': 0, 'category': 'other', 'note': 'User requested to show expenses'}}
+2026-04-09 14:17:22,697 [[92mINFO[0m] [log_expense] → Expense logged: ₹0 [other] User requested to show expenses
+2026-04-09 14:19:12,805 [[92mINFO[0m] API: jarvis
+2026-04-09 14:19:16,267 [DEBUG] Intent: {'action': 'remember_this', 'params': {'key': 'jarvis'}}
+2026-04-09 14:19:16,270 [[92mINFO[0m] [remember_this] → Remembered: jarvis = None
+2026-04-09 14:19:24,589 [[92mINFO[0m] API: hello Jarvis
+2026-04-09 14:19:25,252 [[92mINFO[0m] Wake word detected
+2026-04-09 14:19:25,253 [[92mINFO[0m] Speech: Yes?
+2026-04-09 16:04:51,795 [[92mINFO[0m] Monitor started.
+2026-04-09 16:04:51,795 [[93mWARNING[0m] psutil not installed.
+2026-04-09 16:04:51,795 [[93mWARNING[0m] keyboard not installed. pip install keyboard
+2026-04-09 16:04:51,797 [[93mWARNING[0m] Flask not installed. Run: pip install flask
+2026-04-09 16:04:51,797 [[92mINFO[0m] Job scheduler started.
+2026-04-09 16:05:06,166 [DEBUG] Intent: {'action': 'chat', 'params': {'reply': 'Hello there!'}}
+2026-04-09 16:05:06,167 [[92mINFO[0m] Intent: {'action': 'chat', 'params': {'reply': 'Hello there!'}}
+2026-04-09 16:05:06,167 [[92mINFO[0m] [chat] → Hello there!
+2026-04-09 16:05:45,263 [DEBUG] Intent: {'action': 'kill_process', 'params': {'process': 'code.exe'}}
+2026-04-09 16:05:45,264 [[92mINFO[0m] Intent: {'action': 'kill_process', 'params': {'process': 'code.exe'}}
+2026-04-09 16:05:50,160 [[92mINFO[0m] [kill_process] → psutil not installed
+2026-04-09 16:07:34,580 [DEBUG] Intent: {'action': 'open_browser', 'params': {'url': 'https://web.whatsapp.com'}}
+2026-04-09 16:07:34,580 [[92mINFO[0m] Intent: {'action': 'open_browser', 'params': {'url': 'https://web.whatsapp.com'}}
+2026-04-09 16:07:34,690 [[92mINFO[0m] [open_browser] → Open Browser ✓
+2026-04-09 20:02:12,084 [[93mWARNING[0m] AI agent error: name 'user_input' is not defined
+2026-04-09 21:01:53,234 [[92mINFO[0m] Monitor started.
+2026-04-09 21:01:53,533 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:01:53,649 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:01:53,650 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:02:45,118 [[92mINFO[0m] API: what are you doing Jarvis
+2026-04-09 21:03:01,894 [[93mWARNING[0m] JSON fail: ```json
+{"action":"show_cpu","params":{"}}
+```
+2026-04-09 21:03:01,894 [[92mINFO[0m] [unknown] → I didn't understand that. Type 'help'.
+2026-04-09 21:13:37,128 [[92mINFO[0m] Monitor started.
+2026-04-09 21:13:37,374 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:13:37,440 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:13:37,441 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:13:37,441 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:25:11,312 [[92mINFO[0m] Monitor started.
+2026-04-09 21:25:11,448 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:25:11,513 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:25:11,514 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:25:11,514 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:25:25,039 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:25:31,667 [[92mINFO[0m] [AGENT START] what r u doing
+2026-04-09 21:25:31,669 [[92mINFO[0m] [AI INPUT] what r u doing
+2026-04-09 21:25:32,567 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:25:32,869 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:25:32,870 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:25:38,590 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:25:44,736 [[92mINFO[0m] [AGENT START] what are you ok Google
+2026-04-09 21:25:44,737 [[92mINFO[0m] [AI INPUT] what are you ok Google
+2026-04-09 21:25:45,056 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:25:45,347 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:25:45,348 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:26:07,545 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:26:15,664 [[92mINFO[0m] [AGENT START] what are you
+2026-04-09 21:26:15,665 [[92mINFO[0m] [AI INPUT] what are you
+2026-04-09 21:26:15,958 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:26:16,291 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:26:16,292 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:27:17,238 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:30:00,966 [[92mINFO[0m] Monitor started.
+2026-04-09 21:30:01,187 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:30:01,253 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:30:01,254 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:30:01,254 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:30:15,363 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:30:20,783 [[92mINFO[0m] [AGENT START] what are you
+2026-04-09 21:30:20,784 [[92mINFO[0m] [AI INPUT] what are you
+2026-04-09 21:30:21,129 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:30:21,401 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:30:21,401 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:35:47,610 [[92mINFO[0m] Monitor started.
+2026-04-09 21:35:47,852 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:35:47,917 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:35:47,918 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:35:47,918 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:36:00,578 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:36:00,582 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:36:14,791 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:36:14,812 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:36:19,480 [[92mINFO[0m] [AGENT START] open web browser
+2026-04-09 21:36:19,481 [[92mINFO[0m] [AI INPUT] open web browser
+2026-04-09 21:36:19,488 [[92mINFO[0m] [AGENT START] open web browser
+2026-04-09 21:36:19,489 [[92mINFO[0m] [AI INPUT] open web browser
+2026-04-09 21:36:20,045 [[93mWARNING[0m] AI retry 1: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:36:20,061 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:36:20,341 [[93mWARNING[0m] AI retry 2: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:36:20,342 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:36:20,365 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:36:20,366 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:37:55,001 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:37:55,051 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:38:01,803 [[92mINFO[0m] [AGENT START] what are you
+2026-04-09 21:38:01,803 [[92mINFO[0m] [AI INPUT] what are you
+2026-04-09 21:38:01,815 [[92mINFO[0m] [AGENT START] what are you
+2026-04-09 21:38:01,815 [[92mINFO[0m] [AI INPUT] what are you
+2026-04-09 21:38:02,398 [[93mWARNING[0m] AI retry 1: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:38:02,444 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:38:02,683 [[93mWARNING[0m] AI retry 2: 401 Client Error: Unauthorized for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:38:02,684 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:38:02,741 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:38:02,741 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-09 21:39:57,346 [[92mINFO[0m] Monitor started.
+2026-04-09 21:39:57,533 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:39:57,598 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:39:57,599 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:39:57,599 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:42:57,443 [[92mINFO[0m] Monitor started.
+2026-04-09 21:42:57,576 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-09 21:42:57,649 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-09 21:42:57,650 [[92mINFO[0m] Job scheduler started.
+2026-04-09 21:42:57,650 [[92mINFO[0m] Speech: Good evening. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-09 21:43:54,160 [[92mINFO[0m] Speech: Yes?
+2026-04-09 21:44:02,280 [[92mINFO[0m] [AGENT START] can you open the chrome
+2026-04-09 21:44:02,281 [[92mINFO[0m] [AI INPUT] can you open the chrome
+2026-04-09 21:44:02,997 [[93mWARNING[0m] AI retry 1: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:44:03,293 [[93mWARNING[0m] AI retry 2: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2026-04-09 21:44:03,295 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-10 09:17:10,024 [[92mINFO[0m] Monitor started.
+2026-04-10 09:17:10,258 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-10 09:17:10,373 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-10 09:17:10,374 [[92mINFO[0m] Job scheduler started.
+2026-04-10 09:17:10,374 [[92mINFO[0m] Speech: Good morning. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-10 09:17:21,755 [[92mINFO[0m] Speech: Yes?
+2026-04-10 09:17:30,656 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:17:35,034 [[92mINFO[0m] Speech: Yes?
+2026-04-10 09:17:39,104 [[93mWARNING[0m] OPENROUTER_API_KEY env var is not set. Get a FREE key at https://openrouter.ai/keys then set it with:
+  Windows: set OPENROUTER_API_KEY=sk-or-...
+  Linux/Mac: export OPENROUTER_API_KEY=sk-or-...
+2026-04-10 09:17:39,105 [[92mINFO[0m] [AGENT START] close Chrome
+2026-04-10 09:17:39,105 [[92mINFO[0m] [AI INPUT] close Chrome
+2026-04-10 09:17:39,106 [[91mERROR[0m] OPENROUTER_API_KEY is not set — cannot call AI.
+2026-04-10 09:17:39,106 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-10 09:17:52,049 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:00,109 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:07,841 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:10,829 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:14,142 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:16,734 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:47,019 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:18:55,307 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:03,877 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:06,320 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:14,254 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:44,572 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:46,878 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:19:59,868 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:02,252 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:04,758 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:07,432 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:20,706 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:22,903 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:30,786 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:38,393 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:40,839 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:20:48,677 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:21:07,794 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:21:15,383 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:21:17,799 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:22:47,079 [[92mINFO[0m] Monitor started.
+2026-04-10 09:22:47,205 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-10 09:22:47,271 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-10 09:22:47,272 [[92mINFO[0m] Job scheduler started.
+2026-04-10 09:22:47,272 [[92mINFO[0m] Speech: Good morning. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-10 09:22:55,299 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:23:03,607 [[92mINFO[0m] Speech: Yes?
+2026-04-10 09:23:07,720 [[92mINFO[0m] [AGENT START] close Chrome
+2026-04-10 09:23:07,721 [[92mINFO[0m] [AI INPUT] close Chrome
+2026-04-10 09:23:10,580 [[93mWARNING[0m] OpenRouter: rate limited (attempt 1). Retrying...
+2026-04-10 09:23:11,669 [[93mWARNING[0m] OpenRouter: rate limited (attempt 2). Retrying...
+2026-04-10 09:23:11,670 [[91mERROR[0m] OpenRouter: all 2 attempts failed.
+2026-04-10 09:23:11,670 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-10 09:23:27,569 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:23:30,528 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:23:38,409 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:23:46,355 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:23:49,806 [[92mINFO[0m] Speech: Yes?
+2026-04-10 09:23:52,681 [[92mINFO[0m] [AGENT START] close
+2026-04-10 09:23:52,684 [[92mINFO[0m] [AI INPUT] close
+2026-04-10 09:23:56,040 [[93mWARNING[0m] OpenRouter: rate limited (attempt 1). Retrying...
+2026-04-10 09:23:57,546 [[93mWARNING[0m] OpenRouter: rate limited (attempt 2). Retrying...
+2026-04-10 09:23:57,546 [[91mERROR[0m] OpenRouter: all 2 attempts failed.
+2026-04-10 09:23:57,549 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-10 09:24:05,315 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:07,890 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:21,762 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:24,857 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:31,525 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:41,636 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:48,341 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:24:51,394 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:25:21,238 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:25:36,954 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:25:40,086 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:25:47,878 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:12,222 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:20,022 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:22,439 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:30,392 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:38,259 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:41,884 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:45,091 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:52,944 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:26:59,882 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:05,924 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:10,621 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:18,257 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:21,021 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:30,000 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:37,879 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:40,142 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:47,792 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:27:55,808 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:08,930 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:11,267 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:19,074 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:21,384 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:23,849 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:26,664 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:34,101 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:36,490 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:47,564 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:28:55,832 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:03,459 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:16,445 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:18,832 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:21,534 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:29,359 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:29:59,361 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:04,377 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:17,541 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:31,315 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:39,715 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:52,973 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:55,465 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:30:58,064 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:05,667 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:13,821 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:22,673 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:30,819 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:39,014 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:41,522 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:49,365 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:31:57,112 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:32:10,157 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:32:17,743 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:32:25,230 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:32:48,742 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:32:51,307 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:33:15,226 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:33:23,211 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:33:31,675 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:34:16,608 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:34:24,548 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:34:37,532 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:34:51,022 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:34:58,602 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:35:11,510 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:35:24,569 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:35:32,584 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:35:55,314 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:02,930 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:10,493 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:12,857 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:15,346 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:34,904 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:37,543 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:56,379 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:36:59,323 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:37:07,682 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:37:31,514 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:37:44,861 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:37:52,535 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:38:11,887 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:38:19,645 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:38:32,861 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:38:51,259 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:38:58,994 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:39:11,915 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:39:22,335 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:39:45,968 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:40:36,733 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:40:46,141 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:41:09,094 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:41:20,379 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:41:25,131 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:41:33,223 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:41:57,304 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:10,230 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:12,587 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:15,170 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:22,947 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:25,226 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:32,811 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:35,436 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:43,324 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:48,402 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:42:56,209 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:20,315 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:28,396 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:30,571 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:38,770 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:46,756 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:43:54,818 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:02,682 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:11,914 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:19,067 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:21,557 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:27,159 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:32,909 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:44,736 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:52,211 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:44:57,960 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:06,336 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:18,739 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:22,913 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:38,493 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:46,787 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:45:59,839 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:08,234 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:11,382 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:30,446 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:34,411 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:39,264 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:50,560 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:53,522 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:46:56,959 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:47:00,440 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:47:13,907 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:47:38,719 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:47:44,300 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:47:47,858 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:48:00,845 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:48:08,409 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:48:37,610 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:48:45,170 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:04,033 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:18,384 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:22,551 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:35,592 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:40,925 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:48,510 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:56,349 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:49:58,956 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:09,217 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:17,145 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:19,575 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:27,162 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:34,802 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:37,505 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:45,048 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:50:47,127 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:05,712 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:08,237 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:32,092 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:34,422 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:47,491 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:55,072 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:51:57,226 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:17,562 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:25,132 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:32,909 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:37,117 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:39,631 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:47,712 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:52:55,866 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:53:09,479 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:53:20,073 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:53:26,303 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:53:44,766 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:53:59,117 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:54:12,183 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:54:15,939 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:54:40,920 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:54:49,059 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:25,376 [DEBUG] Speech recognition error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-04-10 09:55:33,260 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:41,501 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:43,745 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:45,933 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:53,980 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:55:56,827 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:56:06,723 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:56:25,074 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:56:40,499 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:56:48,808 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:56:58,203 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:02,208 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:04,696 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:16,171 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:21,619 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:26,952 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:38,251 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:40,886 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:46,627 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:51,239 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:57:57,770 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:01,715 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:09,881 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:21,205 [DEBUG] Speech recognition error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-10 09:58:32,098 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:40,331 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:43,509 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:49,379 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:58:53,938 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:00,170 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:04,428 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:15,480 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:23,852 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:27,909 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:36,020 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:41,613 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:45,667 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:51,216 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:53,619 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 09:59:57,392 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:02,259 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:07,836 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:15,724 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:24,047 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:26,495 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:29,063 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:36,330 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:44,684 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:00:53,781 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:01:04,332 [DEBUG] Speech not recognised (silence or unclear audio).
+2026-04-10 10:24:19,886 [[92mINFO[0m] Monitor started.
+2026-04-10 10:24:20,001 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-10 10:24:20,304 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-10 10:24:20,305 [[92mINFO[0m] Job scheduler started.
+2026-04-10 10:24:20,305 [[92mINFO[0m] Speech: Good morning. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-10 10:24:44,985 [DEBUG] Speech not recognized.
+2026-04-10 10:24:49,647 [[92mINFO[0m] Speech: Yes?
+2026-04-10 10:24:58,105 [[92mINFO[0m] [AGENT START] close Chrome
+2026-04-10 10:24:58,105 [[92mINFO[0m] [AI INPUT] close Chrome
+2026-04-10 10:24:59,610 [[93mWARNING[0m] OpenRouter HTTP 404 on attempt 1: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-10 10:25:00,321 [[93mWARNING[0m] OpenRouter HTTP 404 on attempt 2: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-04-10 10:25:00,322 [[91mERROR[0m] OpenRouter: all 2 attempts failed.
+2026-04-10 10:25:00,324 [[93mWARNING[0m] Skipped chat due to low confidence
+2026-04-10 10:25:11,879 [DEBUG] Speech not recognized.
+2026-04-10 10:25:20,413 [DEBUG] Speech not recognized.
+2026-04-10 10:25:29,085 [DEBUG] Speech not recognized.
+2026-04-10 10:25:39,525 [DEBUG] Speech not recognized.
+2026-04-10 10:25:58,009 [DEBUG] Speech not recognized.
+2026-04-10 10:26:03,004 [DEBUG] Speech not recognized.
+2026-04-10 10:26:07,045 [DEBUG] Speech not recognized.
+2026-04-10 10:26:18,598 [DEBUG] Speech not recognized.
+2026-04-10 10:26:34,817 [DEBUG] Speech not recognized.
+2026-04-10 10:26:42,665 [DEBUG] Speech not recognized.
+2026-04-10 10:26:57,639 [DEBUG] Speech not recognized.
+2026-04-10 10:27:06,438 [DEBUG] Speech not recognized.
+2026-04-10 10:27:09,503 [DEBUG] Speech not recognized.
+2026-04-10 10:27:14,907 [DEBUG] Speech not recognized.
+2026-04-10 10:27:19,369 [DEBUG] Speech not recognized.
+2026-04-10 10:27:32,491 [DEBUG] Speech not recognized.
+2026-04-10 10:27:36,656 [DEBUG] Speech not recognized.
+2026-04-10 10:27:41,671 [DEBUG] Speech not recognized.
+2026-04-10 10:27:45,122 [DEBUG] Speech not recognized.
+2026-04-10 10:27:53,347 [DEBUG] Speech not recognized.
+2026-04-10 10:28:08,291 [DEBUG] Speech not recognized.
+2026-04-10 10:28:15,802 [DEBUG] Speech not recognized.
+2026-04-10 10:28:23,441 [DEBUG] Speech not recognized.
+2026-04-10 10:28:26,150 [DEBUG] Speech not recognized.
+2026-04-10 10:28:31,546 [DEBUG] Speech not recognized.
+2026-04-10 10:28:58,391 [DEBUG] Speech not recognized.
+2026-04-10 10:29:06,429 [DEBUG] Speech not recognized.
+2026-04-10 10:29:14,592 [DEBUG] Speech not recognized.
+2026-04-10 10:29:26,411 [DEBUG] Speech not recognized.
+2026-04-10 10:29:31,600 [DEBUG] Speech not recognized.
+2026-04-10 10:29:41,364 [DEBUG] Speech not recognized.
+2026-04-10 10:30:01,999 [DEBUG] Speech not recognized.
+2026-04-10 10:30:05,572 [DEBUG] Speech not recognized.
+2026-04-10 10:30:09,882 [DEBUG] Speech not recognized.
+2026-04-10 10:30:15,253 [DEBUG] Speech not recognized.
+2026-04-10 10:30:18,072 [DEBUG] Speech not recognized.
+2026-04-10 10:30:36,838 [DEBUG] Speech not recognized.
+2026-04-10 10:30:56,197 [DEBUG] Speech not recognized.
+2026-04-10 10:31:04,104 [DEBUG] Speech not recognized.
+2026-04-10 10:31:17,652 [DEBUG] Speech not recognized.
+2026-04-10 10:31:21,412 [DEBUG] Speech not recognized.
+2026-04-10 10:31:24,082 [DEBUG] Speech not recognized.
+2026-04-10 10:31:29,438 [DEBUG] Speech not recognized.
+2026-04-10 10:31:33,053 [DEBUG] Speech not recognized.
+2026-04-10 10:31:41,948 [DEBUG] Speech not recognized.
+2026-04-10 10:31:49,280 [DEBUG] Speech not recognized.
+2026-04-10 10:32:04,284 [DEBUG] Speech not recognized.
+2026-04-10 10:32:16,359 [DEBUG] Speech not recognized.
+2026-04-10 10:32:21,554 [DEBUG] Speech not recognized.
+2026-04-10 10:32:27,914 [DEBUG] Speech not recognized.
+2026-04-10 10:32:32,667 [DEBUG] Speech not recognized.
+2026-04-10 10:32:37,477 [DEBUG] Speech not recognized.
+2026-04-10 10:33:00,519 [DEBUG] Speech not recognized.
+2026-04-10 10:33:10,439 [DEBUG] Speech not recognized.
+2026-04-10 10:33:20,679 [DEBUG] Speech not recognized.
+2026-04-10 10:33:28,993 [DEBUG] Speech not recognized.
+2026-04-10 10:33:32,804 [DEBUG] Speech not recognized.
+2026-04-10 10:33:37,529 [DEBUG] Speech not recognized.
+2026-04-10 10:33:46,820 [DEBUG] Speech not recognized.
+2026-04-10 10:33:49,645 [DEBUG] Speech not recognized.
+2026-04-10 10:33:52,290 [DEBUG] Speech not recognized.
+2026-04-10 10:33:55,170 [DEBUG] Speech not recognized.
+2026-04-10 10:34:03,696 [DEBUG] Speech not recognized.
+2026-04-10 10:34:11,573 [DEBUG] Speech not recognized.
+2026-04-10 10:34:14,724 [DEBUG] Speech not recognized.
+2026-04-10 10:34:23,926 [DEBUG] Speech not recognized.
+2026-04-10 10:34:33,479 [DEBUG] Speech not recognized.
+2026-04-10 10:34:41,640 [DEBUG] Speech not recognized.
+2026-04-10 10:34:46,274 [DEBUG] Speech not recognized.
+2026-04-10 10:35:01,827 [DEBUG] Speech not recognized.
+2026-04-10 10:35:13,801 [DEBUG] Speech not recognized.
+2026-04-10 10:35:42,120 [DEBUG] Speech not recognized.
+2026-04-10 10:35:45,750 [DEBUG] Speech not recognized.
+2026-04-10 10:35:55,447 [DEBUG] Speech not recognized.
+2026-04-10 10:36:00,948 [DEBUG] Speech not recognized.
+2026-04-10 10:36:07,232 [DEBUG] Speech not recognized.
+2026-04-10 10:36:12,610 [DEBUG] Speech not recognized.
+2026-04-10 10:36:29,544 [DEBUG] Speech not recognized.
+2026-04-10 10:36:34,544 [DEBUG] Speech not recognized.
+2026-04-10 10:36:39,252 [DEBUG] Speech not recognized.
+2026-04-10 10:36:42,253 [DEBUG] Speech not recognized.
+2026-04-10 10:36:51,220 [DEBUG] Speech not recognized.
+2026-04-10 10:37:02,857 [DEBUG] Speech not recognized.
+2026-04-10 10:37:21,985 [DEBUG] Speech not recognized.
+2026-04-10 10:37:30,940 [DEBUG] Speech not recognized.
+2026-04-10 10:37:46,955 [DEBUG] Speech not recognized.
+2026-04-10 10:38:13,081 [DEBUG] Speech not recognized.
+2026-04-10 10:38:24,773 [DEBUG] Speech not recognized.
+2026-04-10 10:39:06,970 [DEBUG] Speech not recognized.
+2026-04-10 10:39:17,060 [DEBUG] Speech not recognized.
+2026-04-10 10:39:21,889 [DEBUG] Speech not recognized.
+2026-04-10 10:39:27,804 [DEBUG] Speech not recognized.
+2026-04-10 10:39:38,659 [DEBUG] Speech not recognized.
+2026-04-10 10:39:46,780 [DEBUG] Speech not recognized.
+2026-04-10 10:39:53,794 [DEBUG] Speech not recognized.
+2026-04-10 10:40:12,686 [DEBUG] Speech not recognized.
+2026-04-10 10:40:42,292 [DEBUG] Speech not recognized.
+2026-04-10 10:41:04,244 [DEBUG] Speech not recognized.
+2026-04-10 10:41:31,494 [DEBUG] Speech not recognized.
+2026-04-10 10:41:46,164 [DEBUG] Speech not recognized.
+2026-04-10 10:42:17,860 [DEBUG] Speech not recognized.
+2026-04-10 10:42:22,817 [[92mINFO[0m] Monitor started.
+2026-04-10 10:42:23,031 [[92mINFO[0m] Hotkeys: ['ctrl+shift+j', 'ctrl+shift+s', 'ctrl+shift+m', 'ctrl+shift+p', 'ctrl+shift+r']
+2026-04-10 10:42:23,134 [[92mINFO[0m] API started: http://localhost:5000
+2026-04-10 10:42:23,134 [[92mINFO[0m] Job scheduler started.
+2026-04-10 10:42:23,134 [[92mINFO[0m] Speech: Good morning. JARVIS V4 Maximum Edition online. All systems operational.
+2026-04-10 10:42:42,003 [DEBUG] Speech not recognized.
+2026-04-10 10:42:49,315 [[92mINFO[0m] Speech: Yes?
+2026-04-10 10:42:57,379 [DEBUG] Speech not recognized.
+2026-04-10 10:43:05,702 [DEBUG] Speech not recognized.
+2026-04-10 10:43:14,805 [[92mINFO[0m] Speech: Yes?
